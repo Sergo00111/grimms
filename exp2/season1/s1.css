@@ -1,0 +1,60 @@
+.header{
+    background: #007c4d;
+    color: white;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+
+
+}   
+
+.osnova{
+    background: #46ffb2;
+    width: auto;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+
+}
+body{
+    background: #00442b;
+}
+
+.container{
+    display: flex;
+    gap: 5%;
+}
+
+.video-card1-1 {
+    display: block;
+    width: 300px;
+    text-decoration: none;
+    color: #00442b;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin:  1% 0% 0% 5%;
+    
+}
+
+.video-card1-1:hover{
+transform: translateY(-5px);
+}
+
+
+.video-card1-1 img{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   display: block;
+}
+.video-title{
+    padding: 15px;
+    text-align: center;
+    background: #46ffb2;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
